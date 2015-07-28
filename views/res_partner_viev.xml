@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-	<data>
+  <data>
 
-		<!--inherit_id="view_partner_form" -->
-		<record id="view_partner_form" model="ir.ui.view">
-			<field name="name">res.partner.form</field>
-			<field name="model">res.partner</field>
-			<field name="inherit_id" ref="base.view_partner_form" />
-			<field name="arch" type="xml">
-				<field name="website" position="after">
-					<field name="linkedin" widget="url" placeholder="e.g. www.linkedin.com" />
-					<field name="behance" widget="url" placeholder="e.g. www.behance.com" />
-					<field name="dribbble" widget="url" placeholder="e.g. www.dribbble.com" />
-					<field name="github" widget="url" placeholder="e.g. www.github.com" />
-					<field name="google_plus" widget="url" placeholder="e.g. www.plus.google.com/" />
-					<field name="facebook" widget="url" placeholder="e.g. www.facebook.com" />
-					<field name="twitter" widget="url" placeholder="e.g. www.twitter.com" />
-				</field>
-			</field>
-		</record>
+    <!--inherit_id="view_partner_form" -->
+    <record id="view_partner_form" model="ir.ui.view">
+      <field name="name">res.partner.form</field>
+      <field name="model">res.partner</field>
+      <field name="inherit_id" ref="base.view_partner_form"/>
+      <field name="arch" type="xml">
+        <field name="website" position="after">
+          <field name="linkedin" widget="url" placeholder="e.g. www.linkedin.com"/>
+          <field name="behance" widget="url" placeholder="e.g. www.behance.com"/>
+          <field name="dribbble" widget="url" placeholder="e.g. www.dribbble.com"/>
+          <field name="github" widget="url" placeholder="e.g. www.github.com"/>
+          <field name="google_plus" widget="url" placeholder="e.g. www.plus.google.com/"/>
+          <field name="facebook" widget="url" placeholder="e.g. www.facebook.com"/>
+          <field name="twitter" widget="url" placeholder="e.g. www.twitter.com"/>
+        </field>
+      </field>
+    </record>
 
-	</data>
+  </data>
 </openerp>
